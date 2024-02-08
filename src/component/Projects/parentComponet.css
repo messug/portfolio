@@ -1,0 +1,10 @@
+/* ParentComponent.css */
+
+.projects-row {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.project-card {
+  width: 30%; /* Adjust as needed */
+}

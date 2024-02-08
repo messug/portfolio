@@ -1,0 +1,97 @@
+/* styles.css */
+*{
+  background-color: beige;
+}
+/* Style for the section container */
+.section {
+  padding: 20px 0;
+}
+
+/* Style for the section title */
+.section-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+
+/* Style for the content paragraph */ 
+.section-content {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.about-section {
+  padding: 2rem 0;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.svg-content{
+  margin-top: -60px;
+  align-items: center;
+
+}
+
+.text-container {
+  flex: 1;
+  text-align: center;
+}
+
+.text-container h2 {
+  margin-bottom: 1rem;
+}
+
+.text-container img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+  border-radius: 50%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  
+}
+
+.button-container .btn {
+  width: 100px; 
+  height: 100px; 
+  margin-bottom: -5%;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 50%;
+  color: rgb(25, 23, 23);
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+  row-gap:10px ;
+  box-shadow: black;
+}
+
+.button-container .btn-1 {
+  background-color: #f4ad9d;
+}
+
+.button-container .btn-2 {
+  background-color: #86a2f5;
+}
+
+.button-container .btn-3 {
+  background-color: #a0fba0;
+}
+
+.btn:hover {
+  background-color: gold;
+  color: #fff;
+}
+  
