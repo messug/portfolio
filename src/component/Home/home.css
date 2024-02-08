@@ -1,0 +1,59 @@
+body {
+  background-image: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.outer {
+  width: 500px;
+  position: absolute;
+  animation: floatup 20s linear infinite, sideways 20s linear infinite, change 10s linear infinite alternate;
+}
+
+.box {
+  width: 100px; /* Adjust the size of the butterfly */
+  height: 100px; /* Adjust the size of the butterfly */
+  background-image: url(''); /* Corrected URL syntax */
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes floatup {
+  0% {
+    top: 100%;
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    top: 50%;
+    transform: translateY(-50%) rotate(-20deg);
+  }
+  100% {
+    top: -100px; /* Adjust this value to control how far up the butterfly goes */
+    transform: translateY(-100%) rotate(-45deg); /* Adjust rotation for a more realistic flight */
+  }
+}
+
+@keyframes sideways {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(100vw - 100px); /* Adjust this value based on the width of the butterfly */
+  }
+}
+
+@keyframes change {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg);
+  }
+}

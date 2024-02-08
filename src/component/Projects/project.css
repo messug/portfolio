@@ -3,7 +3,7 @@
   border-radius: 10px;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
-  color: rgb(109, 72, 4);
+  color: rgb(74, 53, 13);
   border-radius: 2rem;
   background-color: rgb(181, 209, 204);
 }
@@ -11,11 +11,9 @@
 .project-card:hover {
   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
 }
+ 
 
-.project-card img {
-  height: 200px; /* Adjust height as needed */
-  object-fit: cover;
-}
+
 
 .card-body {
   padding: 20px;
@@ -25,15 +23,41 @@
 
 .card-title {
   font-size: 1.2rem;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
+  background-color: rgb(181, 209, 204);
+  text-align: center;
+  
 }
 
-.card-text {
+.card-description {
   font-size: 1rem;
+  background-color: rgb(181, 209, 204);
+  text-align: center;
 }
 
-.btn {
-  margin-top: 150px;
-  gap: 2rem;
-  border-radius: 3rem;
+.project-card {
+  width: 18rem;
+  height: 23rem;
+  align-items: center;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgb(181, 209, 204);
+  size: 100px;
+  margin-top: 50px;
+
+
+}
+
+.github-icon {
+  color: #000;
+  background-color: rgb(181, 209, 204);
+}
+
+.globe-icon {
+  color: #000;
+  background-color: rgb(181, 209, 204);
+ }

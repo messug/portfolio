@@ -68,6 +68,7 @@ Navbar.css
 
 .nav__item {
   position: relative;
+  box-shadow: 2px 5px #ece5a0;
 }
 
 .nav__link {
