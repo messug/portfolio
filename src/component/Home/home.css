@@ -1,28 +1,80 @@
 body {
-  background-image: transparent;
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: right;
+  background-size: 50%;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
   position: relative;
+  
+}
+.home{
+  font-size: 30px; 
+  color: darkblue; 
+  position: left;
+  text-align: center;
+  opacity: 1;
 }
 
+.home pre {
+  font-size: 20px;
+  color: rgba(0, 0, 139, 0.8); /* Dark blue with reduced opacity */
+  padding-left: 40px; /* Add padding to the left side */
+  padding-top: 4%;
+}
+
+.home pre code {
+  font-size: 30px;
+  color: goldenrod;
+}
+
+.home pre::before,
+.home pre::after {
+  content: "{";
+  color: goldenrod;
+  font-size: 24px; /* Adjust bracket size */
+  position: absolute;
+  left: 0;
+  padding-left: 20px;
+  transform: translateY(-50%);
+}
+
+.home pre::after {
+  content: "}";
+}
+
+
+.home pre {
+  position: relative;
+  text-align: left;
+}
+
+.text {
+  flex: 1; 
+}
+
+.image {
+  margin-right: 200px; 
+}
+
+.image img {
+  
+  width: 100px; 
+  height: 100px; 
+}
+
+
+
 .outer {
-  width: 500px;
+  width: 30px;
+ 
   position: absolute;
   animation: floatup 20s linear infinite, sideways 20s linear infinite, change 10s linear infinite alternate;
 }
 
 .box {
-  width: 100px; /* Adjust the size of the butterfly */
-  height: 100px; /* Adjust the size of the butterfly */
-  background-image: url(''); /* Corrected URL syntax */
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
+  align-items: center;
+  border-radius: 2rem;
 }
 
 @keyframes floatup {

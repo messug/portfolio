@@ -1,15 +1,15 @@
 /* styles.css */
 *{
-  background-color: beige;
+  background-color: rgb(251, 251, 219);
 }
 /* Style for the section container */
 .section {
-  padding: 20px 0;
+  padding: 50px 10px;
 }
 
 /* Style for the section title */
 .section-title {
-  font-size: 32px;
+  font-size: 40px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -23,7 +23,7 @@
 }
 
 .about-section {
-  padding: 2rem 0;
+  padding: -10px ;
 }
 
 .content-container {
@@ -33,14 +33,15 @@
 }
 
 .svg-content{
-  margin-top: -60px;
   align-items: center;
 
 }
 
 .text-container {
-  flex: 1;
+  flex: 0;
+ margin: 1rem;
   text-align: center;
+  font-size: 18px;
 }
 
 .text-container h2 {
@@ -55,6 +56,7 @@
 
 .button-container {
   display: flex;
+  padding: -10px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -66,7 +68,7 @@
   width: 100px; 
   height: 100px; 
   margin-bottom: -5%;
-  margin-top: 2rem;
+  margin-top: .5rem;
   border: none;
   border-radius: 50%;
   color: rgb(25, 23, 23);
