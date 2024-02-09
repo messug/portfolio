@@ -26,7 +26,7 @@ const ParentComponent = () => {
         title="Portfolio"
         description="Its about me which showcases my skills and my projects."
         githubLink="https://github.com/your-username"
-        projectLink="https://your-portfolio.com"
+        projectLink="https://meseret-gebrezgi.vercel.app/"
        
         style={{ width: '20%' }}
       />
