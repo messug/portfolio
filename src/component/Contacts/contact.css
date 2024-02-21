@@ -51,7 +51,8 @@
 
 
 }
-svg{
+
+.svg{
   fill: #000;
 }
 
@@ -69,7 +70,7 @@ svg{
   align-items: center;
 }
 
-.social .line {
+.social.line {
   height: 2px;
   width: 50px;
   margin-right: 10px;
