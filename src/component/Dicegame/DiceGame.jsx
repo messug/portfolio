@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import IonDiceOutline from "../Dicegame/IonDiceOutline";
 // import { library } from '@fortawesome/fontawesome-svg-core'
 // import { fas } from '@fortawesome/free-solid-svg-iconslibrary.add(fas)';
 import  './dice.css'

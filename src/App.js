@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './component/Header/Header';
-import Home from './component/Home/Home';
+// import Home from './component/Home/Home';
 import Skill from './component/Skills/Skill';
 import Footer from './component/Footer/Footer';
 import DiceGame from './component/Dicegame/DiceGame';
@@ -23,7 +23,7 @@ function App() {
      <Header />
      <main className="main-content">
        <Routes>
-         <Route path="/" element={<Home />} />
+         {/* <Route path="/" element={<Home />} /> */}
          <Route path="/about" element={<About />} />
          <Route path="/projects" element={<ProjectComponent />} />
          <Route path="/skill" element={<Skill />} />

@@ -9,7 +9,7 @@ const ParentComponent = () => {
         title="Garden Loft"
         description="Its senior tablet app which brings connection and belonging to the community."
         githubLink="https://github.com/garden-loft"
-        projectLink="https://just-for-us-master.vercel.app/"
+        projectLink="coming.soon/"
         style={{ width: '20%' }}
       />
       <Projects

@@ -19,11 +19,11 @@ const Header = () => {
          id="nav-menu"
        >
          <ul className="nav__list">
-           <li className="nav__item">
+           {/* <li className="nav__item">
              <NavLink to="/" className="nav__link">
                Home
              </NavLink>
-           </li>
+           </li> */}
            <li className="nav__item">
              <NavLink to="/about" className="nav__link">
                About
