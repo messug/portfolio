@@ -17,10 +17,12 @@ import './project.css';
 
 const Projects = ({icon, title, description, techStack, githubLink, projectLink,  }) => {
 
-const handleGithubIconClick = () => {
+const handleGithubIconClick = (e) => {
+  e.preventDefault();
   window.location.href = githubLink;
   };
-const handleGlobeIconClick = () => {
+const handleGlobeIconClick = (e) => {
+  e.preventDefault();
     window.location.href = projectLink;
   };
 
@@ -32,10 +34,10 @@ return (
         {techStack && <p className="tech-stack-line">{techStack}</p>}
         <CardText className="card-description">{description}</CardText>
         <div className="icon-container">
-          <a href="#" className="github-icon" onClick={handleGithubIconClick}>
+          <a href={githubLink} className="github-icon" onClick={handleGithubIconClick} target="_blank" rel="noopener noreferrer" aria-label={`${title} GitHub repository`}>
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="#" className="globe-icon" onClick={handleGlobeIconClick}>
+          <a href={projectLink} className="globe-icon" onClick={handleGlobeIconClick} target="_blank" rel="noopener noreferrer" aria-label={`${title} live demo`}>
             <FontAwesomeIcon icon={faGlobe}/>
           </a>
         </div>
