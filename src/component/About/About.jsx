@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import TypingAnimation from './TypingAnimation';
 
 const About = () => {
   const history = useNavigate();
@@ -48,7 +49,9 @@ const About = () => {
           transition={{ delay: 0.4, duration: 0.6 }}
         >
 
-          <h2>Hi, I'm Meseret Gebrezgi 👋</h2>
+          <h2 className="typing-header">
+            <TypingAnimation text="Meseret Gebrezgi — Developer & Problem Solver" speed={80} delay={500} />
+          </h2>
           <h3>Building human-focused apps with React & Firebase</h3>
           <p>I'm a full-stack developer who enjoys turning ideas into simple, human-centered digital experiences. I specialize in crafting smooth frontends with React and React Native, and building reliable backend systems using Firebase and Node.js.</p>
           <p>My focus is on creating accessible, elegant, and intuitive apps that make technology feel effortless — whether it's connecting communities, improving communication, or simplifying everyday tasks.</p>
@@ -63,6 +66,7 @@ const About = () => {
           <button className="btn btn-1" onClick={navigateToProjects} type="button">Projects</button>
           <button className="btn btn-2" onClick={navigateToSkill} type="button">Skill</button>
           <button className="btn btn-3" type="button" onClick={playDice}>Play Dice</button>
+          <a href="/resume.pdf" download className="btn btn-resume">Download Resume</a>
         </motion.div>
     </motion.section>
   );
