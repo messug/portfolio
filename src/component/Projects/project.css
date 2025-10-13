@@ -1,0 +1,77 @@
+.project-card {
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  color: rgb(74, 53, 13);
+  border-radius: 2rem;
+  background-color: rgb(181, 209, 204);
+}
+
+.project-card:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.2);
+}
+ 
+
+
+
+.card-body {
+  padding: 20px;
+  background-color: rgb(181, 209, 204);
+
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 60px;
+  background-color: rgb(181, 209, 204);
+  text-align: center;
+  
+}
+
+.card-description {
+  font-size: 1rem;
+  background-color: rgb(181, 209, 204);
+  text-align: center;
+}
+
+.project-card {
+  width: 18rem;
+  height: 23rem;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgb(181, 209, 204);
+  size: 100px;
+  margin-top: 50px;
+
+
+}
+
+.github-icon {
+  color: #000;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  background: transparent;
+  text-decoration: none;
+}
+
+.github-icon:hover {
+  color: #333;
+}
+
+.globe-icon {
+  color: #000;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+  background: transparent;
+  text-decoration: none;
+}
+
+.globe-icon:hover {
+  color: #333;
+}
