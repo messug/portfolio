@@ -45,7 +45,15 @@ const Header = () => {
                Contact
              </NavLink>
            </li>
-           
+           <li className="nav__item">
+             <NavLink
+               to="/dice"
+               className="nav__link"
+             >
+               Play Dice
+             </NavLink>
+           </li>
+
          </ul>
          {/* <div className="nav__close" id="nav-close">
            <IoClose />

@@ -16,7 +16,7 @@ const About = () => {
   };
 
   const playDice = () => {
-    // Handle navigation programmatically
+    history('/dice');
   };
   return (
   <motion.section

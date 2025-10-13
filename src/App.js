@@ -9,6 +9,7 @@ import About from './component/About/About';
 import Contact from './component/Contacts/Contact';
 import ProjectComponent from './component/Projects/ParentComponent';
 import ScrollToTop from './component/ScrollToTop/ScrollToTop';
+import DiceGame from './component/Dicegame/DiceGame';
 
 import './App.css';
 
@@ -26,6 +27,7 @@ function App() {
          <Route path="/projects" element={<ProjectComponent />} />
          <Route path="/skill" element={<Skill />} />
          <Route path="/contact" element={<Contact />} />
+         <Route path="/dice" element={<DiceGame />} />
          <Route path="/footer" element={<Footer />} />
        </Routes>
      </main>
