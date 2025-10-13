@@ -54,10 +54,20 @@
 
 .github-icon {
   color: #000;
-  background-color: rgb(181, 209, 204);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.github-icon:hover {
+  color: #333;
 }
 
 .globe-icon {
   color: #000;
-  background-color: rgb(181, 209, 204);
- }
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.globe-icon:hover {
+  color: #333;
+}
