@@ -6,7 +6,7 @@ import  './dice.css'
 
 const DiceGame = () => {
   // State to store the current dice value
-  const [diceValue, setDiceValue] = useState(1);
+  const [diceValue, setDiceValue] = useState(null);
 
   // Function to roll the dice
   const rollDice = () => {
@@ -16,15 +16,34 @@ const DiceGame = () => {
     setDiceValue(newValue);
   };
 
+  // Motivational messages based on roll value
+  const getMotivationalMessage = (value) => {
+    const messages = {
+      1: "Every coder starts somewhere!",
+      2: "Keep rolling forward!",
+      3: "Keep rolling forward!",
+      4: "Keep rolling forward!",
+      5: "Keep rolling forward!",
+      6: "You're on fire!"
+    };
+    return messages[value] || "Keep rolling forward!";
+  };
+
   return (
     <div className="dice-game-container">
-      <h1>Dice Game</h1>
-      {/* Display the current dice value */}
-      <div className="dice-value">Current Value: {diceValue}</div>
+      <h1>Play Dice</h1>
+      <p className="dice-subtitle">Roll the dice and see what fortune brings!</p>
       {/* Button to roll the dice */}
       <button className="roll-button" onClick={rollDice}>
-        Roll Dice
+        🎲 Roll the Dice
       </button>
+      {/* Display the current dice value and motivational message */}
+      {diceValue && (
+        <div className="dice-result">
+          <div className="dice-value">You rolled a {diceValue}!</div>
+          <p className="motivational-message">{getMotivationalMessage(diceValue)}</p>
+        </div>
+      )}
     </div>
   );
 };

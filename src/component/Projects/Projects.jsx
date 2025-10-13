@@ -15,7 +15,7 @@ import './project.css';
 
 
 
-const Projects = ({icon, title, description, githubLink, projectLink,  }) => {
+const Projects = ({icon, title, description, techStack, githubLink, projectLink,  }) => {
 
 const handleGithubIconClick = () => {
   window.location.href = githubLink;
@@ -26,9 +26,10 @@ const handleGlobeIconClick = () => {
 
 return (
     <Card className="project-card">
-     
+
     <CardBody>
           <CardTitle tag="h5" className="card-title">{title}</CardTitle>
+        {techStack && <p className="tech-stack-line">{techStack}</p>}
         <CardText className="card-description">{description}</CardText>
         <div className="icon-container">
           <a href="#" className="github-icon" onClick={handleGithubIconClick}>
@@ -38,8 +39,8 @@ return (
             <FontAwesomeIcon icon={faGlobe}/>
           </a>
         </div>
-        
-      
+
+
       </CardBody>
     </Card>
   );

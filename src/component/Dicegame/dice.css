@@ -1,24 +1,60 @@
 .dice-game-container {
   text-align: center;
   margin-top: 50px;
+  padding: 2rem;
+  background-color: #FAFAFA;
 }
 
-.dice-value {
-  font-size: 24px;
-  margin-bottom: 20px;
+.dice-game-container h1 {
+  font-size: 2.5rem;
+  color: #222222;
+  margin-bottom: 0.5rem;
+}
+
+.dice-subtitle {
+  color: #FF9800;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
 }
 
 .roll-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #FF9800;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-weight: 600;
 }
 
 .roll-button:hover {
-  background-color: #0056b3;
+  background-color: #3F51B5;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dice-result {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: #F1F3F6;
+  border-radius: 15px;
+  display: inline-block;
+  min-width: 300px;
+}
+
+.dice-value {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #222222;
+}
+
+.motivational-message {
+  font-size: 1.2rem;
+  color: #FF9800;
+  font-weight: 500;
+  margin: 0;
 }

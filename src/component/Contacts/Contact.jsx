@@ -49,7 +49,7 @@ function Contact() {
             <div className="line"></div>
           </div>
           <p style={{textAlign: 'center', marginTop: '1rem', fontSize: '0.9rem'}}>I'm always open to exciting collaborations, innovative projects, or simply a good tech chat.</p>
-          <h2>© 2025 Meseret Gebrezgi</h2>
+          <h2>© 2025 Meseret Gebrezgi – All Rights Reserved</h2>
         </footer>
   </section>
   )

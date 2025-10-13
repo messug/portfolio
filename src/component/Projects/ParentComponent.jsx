@@ -7,7 +7,8 @@ const ParentComponent = () => {
       <Projects
         icon="tablet"
         title="Garden Loft"
-        description="A senior-friendly tablet app that builds community through real-time video calls, social clubs, and daily activities. Designed with accessibility and simplicity to make digital connection easy for everyone."
+        techStack="React Native • Firebase • VideoSDK"
+        description="A senior-friendly tablet app connecting residents through live video calls, social clubs, and daily community events."
         githubLink="https://github.com/garden-loft"
         projectLink="coming.soon/"
         style={{ width: '20%' }}
@@ -15,19 +16,19 @@ const ParentComponent = () => {
       <Projects
        icon="truck"
         title="Unido Rental"
-        description="A truck and snow-plow rental web app designed to solve seasonal challenges. It includes booking management, location-based availability, and a smooth user experience for local businesses."
+        techStack="React • Node.js • Firebase"
+        description="A rental management platform built for seasonal truck and snow-plow operations, featuring bookings, availability tracking, and local business tools."
         githubLink="https://github.com/unido-rental"
         projectLink="https://unidoo.netlify.app/"
-
         style={{ width: '20%' }}
       />
       <Projects
        icon="person"
-        title="Personal Portfolio"
-        description="A showcase of my skills, design vision, and development journey. Fully responsive with clean UI, subtle animations, and optimized performance for fast loading across all devices."
+        title="Portfolio Website"
+        techStack="React • Vite • Tailwind CSS"
+        description="A clean, fast portfolio showcasing my work, skills, and contact links — designed for a modern, responsive experience."
         githubLink="https://github.com/your-username"
         projectLink="https://meseret-gebrezgi.vercel.app/"
-
         style={{ width: '20%' }}
       />
     </div>

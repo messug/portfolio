@@ -1,0 +1,12 @@
+To add your profile photo:
+
+1. Place your professional photo in: /tmp/cc-agent/58552847/project/public/images/profile.jpg
+2. The photo should be:
+   - Professional headshot
+   - Square aspect ratio (recommended)
+   - High quality (at least 500x500px)
+   - Clear background
+
+The About section butterfly SVG can be replaced with your profile photo, or you can add it alongside the existing design.
+
+For reference, look at line 33-77 in src/component/About/About.jsx where the SVG butterfly is currently displayed.

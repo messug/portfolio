@@ -52,10 +52,10 @@ const About = () => {
           <h2 className="typing-header">
             <TypingAnimation text="Meseret Gebrezgi — Developer & Problem Solver" speed={80} delay={500} />
           </h2>
-          <h3>Building human-focused apps with React & Firebase</h3>
-          <p>I'm a full-stack developer who enjoys turning ideas into simple, human-centered digital experiences. I specialize in crafting smooth frontends with React and React Native, and building reliable backend systems using Firebase and Node.js.</p>
-          <p>My focus is on creating accessible, elegant, and intuitive apps that make technology feel effortless — whether it's connecting communities, improving communication, or simplifying everyday tasks.</p>
-          <p className="tech-stack"><strong>💻 Tech Stack:</strong> React • React Native • Expo • Firebase • Node.js • Java • Python</p>
+          <h3>Building human-focused apps with React, Firebase, and AWS</h3>
+          <p>I'm a full-stack software developer passionate about building accessible, reliable, and intuitive digital experiences.</p>
+          <p>I love combining technical precision with creativity — from crafting smooth interfaces in React and React Native to designing secure backends with Firebase, Node.js, and AWS. My projects focus on connection, usability, and innovation that makes technology more human.</p>
+          <p className="tech-stack"><strong>💻 Tech Stack:</strong> Java • Python • React • React Native • Node.js • Firebase • AWS • SQL • HTML • CSS • JavaScript • Git</p>
 </motion.div>
         <motion.div
           className="button-container"

@@ -25,12 +25,21 @@
 
 .card-title {
   font-size: 1.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   background-color: #F1F3F6;
   text-align: center;
   font-weight: 600;
   color: #222222;
 
+}
+
+.tech-stack-line {
+  font-size: 0.85rem;
+  color: #FF9800;
+  text-align: center;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  background-color: #F1F3F6;
 }
 
 .card-description {
