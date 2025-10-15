@@ -61,7 +61,7 @@ function Contact() {
               </div>
               <div className='info-details'>
                 <h3>Email</h3>
-                <a href="mailto:messgeb@smith.com">messgeb@smith.com</a>
+                <a href="mailto:mesiteklu2018@gmail.com">mesiteklu2018@gmail.com</a>
               </div>
             </motion.div>
 
