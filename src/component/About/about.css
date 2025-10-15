@@ -1,21 +1,17 @@
-/* styles.css */
-*{
+* {
   background-color: #FAFAFA;
 }
-/* Style for the section container */
+
 .section {
   padding: 50px 10px;
 }
 
-/* Style for the section title */
 .section-title {
   font-size: 40px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-
-/* Style for the content paragraph */ 
 .section-content {
   font-size: 18px;
   line-height: 1.5;
@@ -23,23 +19,30 @@
 }
 
 .about-section {
-  padding: -10px ;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
 }
 
 .content-container {
   display: flex;
   justify-content: center;
-
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.svg-content{
+.svg-content {
   align-items: center;
-
+  margin-bottom: 2rem;
 }
 
 .text-container {
   flex: 0;
- margin: 1rem;
+  margin: 1rem;
   text-align: center;
   font-size: 18px;
   max-width: 800px;
@@ -59,7 +62,7 @@
 .typing-cursor {
   animation: blink 1s infinite;
   font-weight: 300;
-  color: #FF9800;
+  color: #667eea;
 }
 
 @keyframes blink {
@@ -68,7 +71,7 @@
 }
 
 .text-container h3 {
-  color: #FF9800;
+  color: #667eea;
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
 }
@@ -76,6 +79,7 @@
 .text-container p {
   margin-bottom: 1rem;
   line-height: 1.8;
+  color: #555;
 }
 
 .text-container .tech-stack {
@@ -84,72 +88,54 @@
 }
 
 .text-container img {
-  width: 100px; /* Adjust as needed */
+  width: 100px;
   height: auto;
   border-radius: 50%;
 }
 
 .button-container {
   display: flex;
-  padding: -10px;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  
+  margin-top: 2rem;
 }
 
 .button-container .btn {
-  width: 100px; 
-  height: 100px; 
-  margin-bottom: -5%;
-  margin-top: .5rem;
+  width: 100px;
+  height: 100px;
+  margin-top: 1rem;
   border: none;
   border-radius: 50%;
-  color: rgb(25, 23, 23);
+  color: white;
   font-size: 1rem;
   font-weight: bolder;
   cursor: pointer;
-  row-gap:10px ;
-  box-shadow: black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .button-container .btn-1 {
-  background-color: #FF9800;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .button-container .btn-2 {
-  background-color: #3F51B5;
-  color: white;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
 }
 
 .button-container .btn-3 {
-  background-color: #F1F3F6;
-}
-
-.button-container .btn-resume {
-  background-color: #3F51B5;
-  color: white;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  text-align: center;
-  line-height: 1.2;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
 }
 
 .btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  background-color: #FF9800;
-  color: #fff;
-  transition: all 0.3s ease;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 768px) {
   .content-container {
-    flex-direction: column;
+    padding: 20px;
   }
 
   .svg-content svg {
@@ -195,4 +181,3 @@
     height: 90px;
   }
 }
-

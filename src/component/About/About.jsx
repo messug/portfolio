@@ -64,9 +64,8 @@ const About = () => {
           transition={{ delay: 0.6, duration: 0.6 }}
         >
           <button className="btn btn-1" onClick={navigateToProjects} type="button">Projects</button>
-          <button className="btn btn-2" onClick={navigateToSkill} type="button">Skill</button>
+          <button className="btn btn-2" onClick={navigateToSkill} type="button">Skills</button>
           <button className="btn btn-3" type="button" onClick={playDice}>Play Dice</button>
-          <a href="/resume.pdf" download className="btn btn-resume">Download Resume</a>
         </motion.div>
     </motion.section>
   );

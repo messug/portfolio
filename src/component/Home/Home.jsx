@@ -77,17 +77,16 @@ const About = () => {
 </div>
 </div>
         <div className="text-container">
-        
           <h2>Meseret Gebrezgi</h2>
-          <h3>A Bit About Me</h3>
-          <p>I am a developer. I utilize my proficiency in crafting user-friendly interfaces <br/> and building resilient
+          <h3>Full-Stack Developer</h3>
+          <p>I am a developer. I utilize my proficiency in crafting user-friendly interfaces and building resilient
           backend systems to deliver impactful and intuitive solutions for clients.
         </p>
-</div>
         <div className="button-container">
           <button className="btn btn-1" onClick={navigateToProjects} type="button">Projects</button>
-          <button className="btn btn-2" onClick={navigateToSkill} type="button">Skill</button>
+          <button className="btn btn-2" onClick={navigateToSkill} type="button">Skills</button>
           <button className="btn btn-3" type="button" onClick={playDice}>Play Dice</button>
+        </div>
         </div>
     </section>
   );
